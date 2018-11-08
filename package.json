@@ -1,0 +1,24 @@
+{
+  "name": "agora",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "mkdir json && mkdir zip"
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "JSONStream": "^1.3.5",
+    "body-parser": "^1.18.3",
+    "event-stream": "^4.0.1",
+    "express": "^4.16.4",
+    "file-system": "^2.2.2",
+    "progress-stream": "^2.0.0",
+    "readline": "^1.3.0",
+    "request": "^2.88.0",
+    "request-progress": "^3.0.0",
+    "unzipper": "^0.9.4"
+  }
+}
